@@ -1,0 +1,76 @@
+name: Bug report
+description: Record a reproducible product defect
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not include credentials, personal data, or unredacted customer information.
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the defect and its user impact in one or two sentences.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include device, OS, application version or build, browser, region, and language where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Preconditions
+      placeholder: Use "None" when no preconditions are required.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Select ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: input
+    id: reproducibility
+    attributes:
+      label: Reproducibility
+      placeholder: 3/3 attempts, intermittent, or not recorded
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Critical
+        - High
+        - Medium
+        - Low
+        - To be assessed
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and notes
+      description: Attach redacted screenshots, video, or logs and add relevant context.
