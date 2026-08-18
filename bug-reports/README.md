@@ -5,6 +5,7 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | ID | Product area | Platform | Category | Severity | Status | Report |
 |---|---|---|---|---|---|---|
 | MOBILE-IOS-001 | Consumer mobile application | iOS | Localization / Content | To be assessed | Draft | [Mixed-script character in a generated title](mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |
+| CHATGPT-IOS-001 | ChatGPT | iOS | Functional / Conversation rendering | High | Ready | [Completed tool-enabled turn renders as an empty response](chatgpt/CHATGPT-IOS-001-empty-response-after-tool-execution.md) |
 
 ## Status definitions
 
