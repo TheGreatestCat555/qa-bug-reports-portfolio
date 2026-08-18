@@ -9,6 +9,7 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 | Area | Example |
 |---|---|
 | Bug reporting | [Localization issue in an iOS title](bug-reports/mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |
+| Bug reporting — data integrity | [One-day timestamp offset in a scheduled catering order](bug-reports/mobile/DASHER-MOBILE-001-scheduled-catering-time-offset.md) |
 | Test design | [Test cases](test-cases/README.md) and [test scenarios](test-scenarios/README.md) |
 | Exploratory testing | [Charters and session reports](exploratory-testing/README.md) |
 | Checklists | [Localization testing checklist](checklists/localization-checklist.md) |
