@@ -74,4 +74,3 @@ Accessibility / UI
 - Check whether Read Aloud appears after reopening the conversation or restarting the application.
 - Check whether the action is absent only while a response is still generating.
 - Measure the reproduction rate and add redacted visual evidence before changing the report to Ready.
-

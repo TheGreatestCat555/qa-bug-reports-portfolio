@@ -13,4 +13,3 @@ This section contains reports based on observed ChatGPT behavior. Reports marked
 - Reproduce the behavior in a controlled session and record the result of each attempt.
 - Compare the affected behavior with an equivalent working case.
 - Add privacy-reviewed evidence before promoting a report to Ready.
-
