@@ -9,7 +9,6 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | CHATGPT-IOS-002 | ChatGPT | iOS (to be confirmed) | Accessibility / UI | Low | Draft | [Read Aloud action is missing for an assistant response](chatgpt/CHATGPT-IOS-002-read-aloud-action-missing.md) |
 | CHATGPT-IOS-003 | ChatGPT | iOS | Functional / Error Handling / Data Loss | Medium | Draft | [Voice recording is lost after speech processing fails](chatgpt/CHATGPT-IOS-003-voice-recording-lost-after-processing-failure.md) |
 | CHATGPT-IOS-004 | ChatGPT | iOS | Functional / Content / Error Handling | Medium | Draft | [Voice transcription returns unrelated text](chatgpt/CHATGPT-IOS-004-fabricated-voice-transcription.md) |
-| CHATGPT-IOS-005 | ChatGPT | iOS | Functional / File Generation / Result Delivery | Medium | Draft | [File generation request does not deliver a file or download link](chatgpt/CHATGPT-IOS-005-generated-file-not-delivered.md) |
 
 ## Status definitions
 
