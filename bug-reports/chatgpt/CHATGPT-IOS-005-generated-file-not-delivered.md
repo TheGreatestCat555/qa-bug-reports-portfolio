@@ -74,3 +74,4 @@ Functional / File Generation / Result Delivery / Error Handling
 - Retest with short and long conversation exports in supported file formats.
 - Verify behavior after leaving and reopening the conversation.
 - Record the application build, network state, processing duration, and attempt count during retesting.
+
