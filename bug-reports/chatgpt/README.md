@@ -6,6 +6,8 @@ This section contains reports based on observed ChatGPT behavior. Reports marked
 |---|---|---|---|---|---|
 | CHATGPT-IOS-001 | iOS | Tool-enabled assistant turns | High | Ready | [Completed tool-enabled turn renders as an empty response](CHATGPT-IOS-001-empty-response-after-tool-execution.md) |
 | CHATGPT-IOS-002 | iOS (to be confirmed) | Assistant message actions / Read Aloud | Low | Draft | [Read Aloud action is missing for an assistant response](CHATGPT-IOS-002-read-aloud-action-missing.md) |
+| CHATGPT-IOS-003 | iOS | Voice input | Medium | Draft | [Voice recording is lost after speech processing fails](CHATGPT-IOS-003-voice-recording-lost-after-processing-failure.md) |
+| CHATGPT-IOS-004 | iOS | Audio transcription | Medium | Draft | [Voice transcription returns unrelated text](CHATGPT-IOS-004-fabricated-voice-transcription.md) |
 
 ## Verification needed for drafts
 
