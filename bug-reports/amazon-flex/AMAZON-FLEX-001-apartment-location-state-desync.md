@@ -9,20 +9,20 @@ During an apartment-complex delivery, the highlighted building, navigation desti
 ## Product and platform
 
 - Product: Amazon Flex driver application
-- Platform: Mobile; operating system not recorded
+- Platform: iOS
 
 ## Environment
 
 | Field | Value |
 |---|---|
-| Device | Not recorded |
-| OS version | Not recorded |
+| Device | iPhone 14 Pro Max |
+| OS version | Not recorded; the behavior was observed over an extended period while the application and OS received updates |
 | Application version/build | Not recorded |
 | Browser | Not applicable |
 | Network | Not recorded |
 | Account state | Active delivery block; other details not recorded |
 | Region and language | United States; application language not recorded |
-| Date and time | Not recorded |
+| Date and time | Exact occurrence not recorded; the detailed field account was documented on March 12, 2026 |
 
 ## Preconditions
 
@@ -58,7 +58,7 @@ The highlighted building, navigation destination, and delivery confirmation zone
 
 ## Reproducibility
 
-Rare and intermittent based on field observation. Exact trigger and reproduction rate were not recorded.
+Rare and intermittent for the severe end-to-end scenario based on field observation. Related location inconsistencies were observed over an extended period. Exact trigger and measured reproduction rate were not recorded, and the current product status has not been reverified.
 
 ## Severity
 
@@ -84,6 +84,8 @@ Functional / Navigation / State Management / Location
 - The map may show several distinct location references: the delivery address, a blue-highlighted building, a numbered stop marker, the confirmation zone, and the actual apartment. This report does not assume that they share the same backend source.
 - The internal cause is unknown. No claim is made about Amazon's mapping provider, customer-entered data, or backend implementation.
 - Manual location adjustment has been available in some other delivery situations, but the conditions controlling its availability are unknown.
+- The reporter recalls the broader location problem persisting across application and OS updates, but exact version boundaries were not recorded. This report therefore does not claim that every iOS version is affected.
+- Similar behavior on Android is plausible but has not been observed or verified for this report; Android is intentionally excluded from the platform field.
 - Apartment-unit labels sometimes appear at higher map zoom levels. It has not been established whether missing labels are a loading defect or unavailable source data, so that observation is not reported here as a separate bug.
 - A future verification session should record the app version, device/OS, time, safely redacted screenshots, the exact blocked control or message, and whether each map reference disagrees independently.
 

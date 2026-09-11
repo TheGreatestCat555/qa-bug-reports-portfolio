@@ -4,5 +4,5 @@ These reports document field-observed delivery workflow problems. Customer addre
 
 | ID | Platform | Category | Severity | Status | Report |
 |---|---|---|---|---|---|
-| AMAZON-FLEX-001 | Mobile (OS not recorded) | Functional / Navigation / State Management | High | Draft | [Delivery cannot be completed at the correct apartment when map location states disagree](AMAZON-FLEX-001-apartment-location-state-desync.md) |
+| AMAZON-FLEX-001 | iOS (iPhone 14 Pro Max) | Functional / Navigation / State Management | High | Draft | [Delivery cannot be completed at the correct apartment when map location states disagree](AMAZON-FLEX-001-apartment-location-state-desync.md) |
 
