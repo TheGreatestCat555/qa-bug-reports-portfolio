@@ -12,6 +12,8 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | CHATGPT-005 | ChatGPT | Not confirmed | Content Accuracy / Technical Guidance / Deprecated API | Medium | Draft | [Technical guidance recommends Google Fit API for a new Android application after new developer access was closed](chatgpt/CHATGPT-005-deprecated-google-fit-api-recommendation.md) |
 | CHATGPT-006 | ChatGPT | Not confirmed | Functional / Conversation Context / Hallucination | Low–Medium | Draft | [Conversation summary invents a separate user project that was never described](chatgpt/CHATGPT-006-invented-project-in-conversation-summary.md) |
 | AMAZON-FLEX-001 | Amazon Flex | iOS (iPhone 14 Pro Max) | Functional / Navigation / State Management | High | Draft | [Delivery cannot be completed at the correct apartment when map location states disagree](amazon-flex/AMAZON-FLEX-001-apartment-location-state-desync.md) |
+| YOUTUBE-IOS-001 | YouTube | iOS (iPhone 14 Pro Max) | Functional / State Management / Interoperability | Medium | Draft | [PiP playback becomes unresponsive after switching to a navigation application](youtube-ios/YOUTUBE-IOS-001-pip-playback-unresponsive-after-app-switch.md) |
+| YOUTUBE-IOS-002 | YouTube | iOS (iPhone 14 Pro Max) | Functional / Picture in Picture / State Management | Medium | Draft | [Leaving YouTube sometimes stops playback without opening the PiP window](youtube-ios/YOUTUBE-IOS-002-pip-window-not-created-on-app-exit.md) |
 
 ## Status definitions
 
