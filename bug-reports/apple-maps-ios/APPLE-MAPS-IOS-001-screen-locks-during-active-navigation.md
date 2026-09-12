@@ -22,7 +22,7 @@ During active turn-by-turn navigation in Apple Maps, an iPhone can unexpectedly 
 | Low Power Mode | Off |
 | CarPlay | Not used |
 | Charging state | Probably not charging; not confirmed |
-| Auto-Lock setting | Not recorded |
+| Auto-Lock setting | Disabled (`Never`) |
 | Network and location conditions | Not recorded |
 | Date and time | Exact occurrence not recorded; the field account was documented on March 20, 2026 |
 
@@ -32,6 +32,7 @@ During active turn-by-turn navigation in Apple Maps, an iPhone can unexpectedly 
 - Apple Maps is available on the device.
 - Low Power Mode is disabled.
 - CarPlay is not in use.
+- System Auto-Lock is disabled (`Never`).
 - A route can be calculated and started.
 
 ## Steps to reproduce
@@ -45,7 +46,7 @@ During active turn-by-turn navigation in Apple Maps, an iPhone can unexpectedly 
 
 ## Actual result
 
-- After approximately several minutes of active navigation, the device enters the lock-screen state as though the hardware lock button had been pressed.
+- After approximately several minutes of active navigation, the device enters the lock-screen state as though the hardware lock button had been pressed, despite system Auto-Lock being disabled.
 - The user must unlock the device again.
 - After unlocking, the previously visible map/navigation state is reset.
 - The behavior occurred multiple times during the same day.
@@ -79,10 +80,10 @@ Functional / Navigation / Power Management / State Management
 ## Notes and limitations
 
 - The exact iOS version/build was not retained and must not be reconstructed from memory.
-- The configured system Auto-Lock interval was not recorded. `Auto-Lock` refers to the setting under `Settings → Display & Brightness → Auto-Lock`, which controls how long an inactive display remains on.
+- System Auto-Lock was disabled (`Settings → Display & Brightness → Auto-Lock → Never`), so the observed lock was not the configured inactivity timeout.
 - The report records that the device entered the lock-screen state; it does not assume which timer, application, framework, or OS component initiated it.
 - The behavior appeared after an iOS update on the affected device, but this is only a temporal correlation. The update is not presented as a proven root cause.
 - Google Maps and other navigation applications were not tested.
 - The affected phone was probably not charging, but this condition was not confirmed.
 - A separate recollection that automatic updates became enabled without user action is not part of this report because the earlier setting was not documented and the behavior was not independently reproduced.
-- A future verification should capture the exact iOS build, Auto-Lock value, time-to-lock, charging state, route-state behavior after unlocking, and a privacy-safe video recorded by a second device.
+- A future verification should capture the exact iOS build, a screenshot confirming `Auto-Lock → Never`, time-to-lock, charging state, route-state behavior after unlocking, and a privacy-safe video recorded by a second device.
