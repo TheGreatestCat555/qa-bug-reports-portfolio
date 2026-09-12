@@ -69,7 +69,8 @@ Functional / Error Handling / Data Loss
 ## Notes and follow-up
 
 - The specific foreground or background application state was not recorded and is not treated as a required reproduction condition.
+- A separate historical account describes the interface switching to a voice/call-style screen during or immediately after an attempt to send a long recording, followed by loss of the recording. It is unknown whether the mode switch occurred automatically, resulted from an unintended touch, or shared the same trigger as the processing-failure scenario.
 - Do not assign the device's current iOS version to this historical observation.
 - Retest on the current ChatGPT build with recordings of several durations.
-- Verify behavior after transcription errors, network interruption, backgrounding, and returning to the conversation.
+- Verify behavior after transcription errors, network interruption, backgrounding, returning to the conversation, and switching between composer voice input and realtime voice mode.
 - Check whether a failed recording survives conversation reload or application restart.
