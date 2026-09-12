@@ -1,10 +1,10 @@
-# APPLE-MAPS-IOS-001: Screen locks and map state resets during active turn-by-turn navigation
+# APPLE-MAPS-IOS-001: Device locks immediately after starting turn-by-turn navigation
 
 > **Status:** Draft
 
 ## Summary
 
-During active turn-by-turn navigation in Apple Maps, an iPhone can unexpectedly enter the lock-screen state after several minutes. After the user unlocks the device, the visible map/navigation state is reset, interrupting the navigation workflow.
+Immediately after turn-by-turn navigation is started in Apple Maps, an iPhone unexpectedly enters the lock-screen state. The user cannot interact with the map until the device is unlocked again. The behavior occurs whether navigation is launched from a third-party delivery application or directly in Apple Maps.
 
 ## Product and platform
 
@@ -24,7 +24,8 @@ During active turn-by-turn navigation in Apple Maps, an iPhone can unexpectedly 
 | Charging state | Probably not charging; not confirmed |
 | Auto-Lock setting | Disabled (`Never`) |
 | Network and location conditions | Not recorded |
-| Date and time | Exact occurrence not recorded; the field account was documented on March 20, 2026 |
+| Comparison device | Another iPhone 14 Pro Max on the same iOS version did not show the issue |
+| Date and time | Exact occurrence not recorded; the field accounts were documented on March 20–21, 2026 |
 
 ## Preconditions
 
@@ -37,27 +38,26 @@ During active turn-by-turn navigation in Apple Maps, an iPhone can unexpectedly 
 
 ## Steps to reproduce
 
-1. Open or launch a route in Apple Maps from the originating application.
-2. Tap `Go` to start turn-by-turn navigation.
-3. Begin following the route with Apple Maps active.
-4. Continue navigation for several minutes without manually pressing the device lock button.
-5. Observe the display and device state.
-6. If the lock screen appears, unlock the device and return to the map.
+1. On the affected iPhone, open a destination in a third-party delivery application and tap its navigation action, or enter a destination directly in Apple Maps.
+2. Confirm that Apple Maps opens with the selected destination.
+3. Tap `Go` to start turn-by-turn navigation.
+4. Observe the device immediately after navigation starts without pressing the hardware lock button.
+5. Unlock the device and return to Apple Maps.
 
 ## Actual result
 
-- After approximately several minutes of active navigation, the device enters the lock-screen state as though the hardware lock button had been pressed, despite system Auto-Lock being disabled.
+- Immediately after navigation starts, the device enters the lock-screen state as though the hardware lock button had been pressed, despite system Auto-Lock being disabled.
 - The user must unlock the device again.
-- After unlocking, the previously visible map/navigation state is reset.
-- The behavior occurred multiple times during the same day.
+- The user cannot interact with the map while the lock screen is active.
+- The behavior occurred frequently during the same day, estimated from memory at approximately 80–90% of navigation starts, but no counted sample was recorded.
 
 ## Expected result
 
-While active turn-by-turn navigation is running in the foreground, the device should preserve the visible navigation experience and should not unexpectedly enter the lock-screen state. If the device is locked for an intentional or system-defined reason, the active route and navigation state should remain recoverable after unlocking.
+Starting turn-by-turn navigation should leave Apple Maps visible and interactive. The device should not enter the lock-screen state when the user has not requested a lock and system Auto-Lock is disabled.
 
 ## Reproducibility
 
-Observed multiple times during one day on one iPhone 14 Pro Max. The exact number of attempts, time-to-lock, and reproduction rate were not recorded. The behavior has not yet been retested on the current OS version.
+Observed frequently during one day on one iPhone 14 Pro Max. The reporter estimated approximately 80–90% of navigation starts, but the exact number of attempts was not counted. Another iPhone 14 Pro Max running the same iOS version did not show the issue. The behavior has not yet been retested on the current OS version.
 
 ## Severity
 
@@ -79,11 +79,12 @@ Functional / Navigation / Power Management / State Management
 
 ## Notes and limitations
 
-- The exact iOS version/build was not retained and must not be reconstructed from memory.
+- The exact iOS version/build was not retained and must not be reconstructed from memory. Both the affected and comparison devices were confirmed to be on the same version.
 - System Auto-Lock was disabled (`Settings → Display & Brightness → Auto-Lock → Never`), so the observed lock was not the configured inactivity timeout.
 - The report records that the device entered the lock-screen state; it does not assume which timer, application, framework, or OS component initiated it.
-- The behavior appeared after an iOS update on the affected device, but this is only a temporal correlation. The update is not presented as a proven root cause.
+- The behavior appeared on the same day as an iOS update on the affected device, but this is only a temporal correlation. The update is not presented as a proven root cause.
+- The unaffected comparison device had the same hardware model and iOS version. This excludes neither iOS nor Apple Maps; it only shows that the issue was not universal under the limited comparison.
 - Google Maps and other navigation applications were not tested.
 - The affected phone was probably not charging, but this condition was not confirmed.
 - A separate recollection that automatic updates became enabled without user action is not part of this report because the earlier setting was not documented and the behavior was not independently reproduced.
-- A future verification should capture the exact iOS build, a screenshot confirming `Auto-Lock → Never`, time-to-lock, charging state, route-state behavior after unlocking, and a privacy-safe video recorded by a second device.
+- A future verification should capture the exact iOS build, a screenshot confirming `Auto-Lock → Never`, a counted reproduction rate, charging state, post-unlock route state, and a privacy-safe video recorded by a second device.
