@@ -12,6 +12,7 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 | Bug reporting — ChatGPT | [Missing final response after completed tool execution on iOS](bug-reports/chatgpt/CHATGPT-IOS-001-empty-response-after-tool-execution.md) |
 | Field workflow testing | [Amazon Flex apartment-location state desynchronization](bug-reports/amazon-flex/AMAZON-FLEX-001-apartment-location-state-desync.md) |
 | Field workflow testing | [Amazon Flex incorrect delivery pin requiring manual relocation](bug-reports/amazon-flex/AMAZON-FLEX-002-incorrect-pin-requires-manual-relocation.md) |
+| Field workflow testing | [Amazon Flex package-scanner flashlight state regression](bug-reports/amazon-flex/AMAZON-FLEX-003-scanner-flashlight-state-resets-between-stops.md) |
 | Mobile navigation testing | [Apple Maps device lock immediately after navigation starts](bug-reports/apple-maps-ios/APPLE-MAPS-IOS-001-screen-locks-during-active-navigation.md) and [route termination after network loss](bug-reports/apple-maps-ios/APPLE-MAPS-IOS-002-active-route-terminates-after-network-loss.md) |
 | Cross-application mobile testing | [YouTube PiP playback becomes unresponsive after switching to navigation](bug-reports/youtube-ios/YOUTUBE-IOS-001-pip-playback-unresponsive-after-app-switch.md) |
 | Test design | [Test cases](test-cases/README.md) and [test scenarios](test-scenarios/README.md) |
