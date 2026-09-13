@@ -13,6 +13,7 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 | Field workflow testing | [Amazon Flex apartment-location state desynchronization](bug-reports/amazon-flex/AMAZON-FLEX-001-apartment-location-state-desync.md) |
 | Field workflow testing | [Amazon Flex incorrect delivery pin requiring manual relocation](bug-reports/amazon-flex/AMAZON-FLEX-002-incorrect-pin-requires-manual-relocation.md) |
 | Field workflow testing | [Amazon Flex package-scanner flashlight state regression](bug-reports/amazon-flex/AMAZON-FLEX-003-scanner-flashlight-state-resets-between-stops.md) |
+| Cross-channel consistency testing | [Amazon Flex cancellation email references the wrong station while the block remains active](bug-reports/amazon-flex/AMAZON-FLEX-004-cancellation-email-references-wrong-station-active-block.md) |
 | Mobile navigation testing | [Apple Maps device lock immediately after navigation starts](bug-reports/apple-maps-ios/APPLE-MAPS-IOS-001-screen-locks-during-active-navigation.md) and [route termination after network loss](bug-reports/apple-maps-ios/APPLE-MAPS-IOS-002-active-route-terminates-after-network-loss.md) |
 | Location and account-state testing | [Find My location sharing stops after an uncommunicated sign-out](bug-reports/find-my-ios/FIND-MY-IOS-001-location-sharing-stops-after-silent-sign-out.md) |
 | Cross-application mobile testing | [YouTube PiP playback becomes unresponsive after switching to navigation](bug-reports/youtube-ios/YOUTUBE-IOS-001-pip-playback-unresponsive-after-app-switch.md) |
