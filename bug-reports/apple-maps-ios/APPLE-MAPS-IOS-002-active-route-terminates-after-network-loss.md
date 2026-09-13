@@ -17,6 +17,7 @@ During active turn-by-turn navigation in Apple Maps, complete loss of the intern
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version/build | Not recorded |
+| Official release context | On March 20–21, iOS 26.3.1 was the latest standard release compatible with iPhone 14 Pro Max; released March 4, 2026. A Background Security Improvement became available March 17, but its installation was not verified. |
 | Application | Apple Maps; version not recorded |
 | Navigation state | Active turn-by-turn driving navigation |
 | Low Power Mode | Off |
@@ -78,6 +79,7 @@ Functional / Navigation / Network Resilience / State Management
 ## Notes and limitations
 
 - The exact iOS version/build was not retained.
+- Release timing is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). Automatic Updates were reportedly enabled, but the installed build remains unconfirmed and no causal relationship to an update is asserted.
 - The report describes observed UI state and does not assume that the route was deleted from storage or that Apple Maps internally invoked the same action as the `End` control.
 - It is unknown whether Offline Maps had been downloaded for the affected area. The expected result therefore does not claim that full offline rerouting or live traffic information must remain available.
 - It is unknown whether GPS remained available during the network interruption.

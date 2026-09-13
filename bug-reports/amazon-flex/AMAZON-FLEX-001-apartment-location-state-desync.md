@@ -17,6 +17,7 @@ During an apartment-complex delivery, the highlighted building, navigation desti
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version | Not recorded; the behavior was observed over an extended period while the application and OS received updates |
+| Official release context | iOS 26.3.1 was the latest standard release compatible with iPhone 14 Pro Max on the March 12 documentation date; released March 4, 2026. This does not identify versions used during the extended observation period. |
 | Application version/build | Not recorded |
 | Browser | Not applicable |
 | Network | Not recorded |
@@ -85,6 +86,7 @@ Functional / Navigation / State Management / Location
 - The internal cause is unknown. No claim is made about Amazon's mapping provider, customer-entered data, or backend implementation.
 - Manual location adjustment has been available in some other delivery situations, but the conditions controlling its availability are unknown.
 - The reporter recalls the broader location problem persisting across application and OS updates, but exact version boundaries were not recorded. This report therefore does not claim that every iOS version is affected.
+- The release-date comparison uses Apple's [official security-release history](https://support.apple.com/en-ca/100100). Automatic Updates were reportedly enabled, but that does not establish installation timing or historical version boundaries.
 - Similar behavior on Android is plausible but has not been observed or verified for this report; Android is intentionally excluded from the platform field.
 - Apartment-unit labels sometimes appear at higher map zoom levels. It has not been established whether missing labels are a loading defect or unavailable source data, so that observation is not reported here as a separate bug.
 - A future verification session should record the app version, device/OS, time, safely redacted screenshots, the exact blocked control or message, and whether each map reference disagrees independently.

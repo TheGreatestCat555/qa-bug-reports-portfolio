@@ -17,6 +17,7 @@ On an active delivery-stop screen, selecting the `Report a problem` control prod
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version/build | Not recorded |
+| Official release context | On the April 6 documentation date, iOS 26.4 was the latest standard release compatible with iPhone 14 Pro Max; released March 24, 2026. iOS 18.7.7 was also available for iPhone 14 models by April 1. Automatic Updates were reportedly enabled, but the installed branch/build was not verified. |
 | Application version/build | Not recorded |
 | Workflow | Active route; individual delivery-stop screen |
 | Intended report type | Dog-related safety concern |
@@ -79,6 +80,7 @@ Functional / Input Handling / Safety Reporting / Error Handling
 
 - Customer, address, route, stop, package, account, and precise location information are intentionally excluded.
 - Exact application and iOS versions were not recorded.
+- Compatible candidates are based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). iOS 26.4 is the likely current-major context, but iOS 18.7.7 remained technically possible; neither may be recorded as the confirmed environment.
 - The intended dog-related report is mentioned only to establish workflow impact; no details about a customer, animal, property, or incident are published.
 - The report does not claim that every stop exposes the failure. The original observation explicitly allowed that it might be specific to the affected stop.
 - It is unknown whether the control failed locally, a destination screen failed to load, or a backend request was rejected; no internal cause is asserted.

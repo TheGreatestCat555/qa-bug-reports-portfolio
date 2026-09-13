@@ -17,6 +17,7 @@ For an accepted delivery, the driver received an in-app no-show warning and a di
 |---|---|
 | Device | iPhone; exact model not retained in this account |
 | OS version/build | Not recorded |
+| Official release context | iOS 26.4 was the latest standard release for compatible current-generation iPhones on March 26; released March 24, 2026. The exact device and installed build were not retained, so this is release context rather than an environment identification. |
 | Application version/build | Not recorded |
 | Workflow | Accepted delivery awaiting its scheduled pickup window |
 | Network | Not recorded |
@@ -83,4 +84,4 @@ Functional / Cross-Channel Consistency / Timing Logic / Notification Escalation 
 - It is unknown whether dispatch applied a route-specific travel-time rule, restaurant-specific requirement, experiment, timezone conversion, or another unpublished condition.
 - No actual recall, no-show classification, policy violation, or loss of earnings was recorded after the driver started early.
 - A future verification should retain the app and OS versions, privacy-safe screenshots of the permitted start window and both warnings, exact timestamps, timezone, pickup deadline, travel-time estimate, location state, final assignment outcome, and any relevant support explanation.
-
+- Release timing is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). Automatic Updates were reportedly enabled on the reporter's iPhone, but the device model, rollout timing, and actual installation remain unverified.

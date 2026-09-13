@@ -17,6 +17,7 @@ When the user leaves YouTube with an active video, the application sometimes rem
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version | Not recorded |
+| Official release context | On the March 17 documentation date, iOS 26.3.1 was the latest standard release compatible with iPhone 14 Pro Max; released March 4, 2026. Automatic Updates were reportedly enabled, but actual installation was not verified. |
 | Application version/build | Not recorded |
 | Interacting application | Observed during workflows involving navigation applications |
 | Network | Not recorded |
@@ -74,7 +75,8 @@ Functional / State Management / Picture in Picture / Interoperability
 
 ## Notes and follow-up
 
+- Release timing is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100) and is contextual evidence only; the exact occurrence date and installed build remain unknown.
+
 - This report does not include viewed content, account details, navigation routes, addresses, or delivery information.
 - The presence of YouTube in the app switcher is recorded only as a user-visible state; no conclusion is made about process lifecycle, memory pressure, cache, or the internal cause.
 - A future session should confirm PiP eligibility before the test, record iOS/YouTube versions, identify the preceding application transitions, capture a redacted screen recording, and test with and without a navigation application.
-

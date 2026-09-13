@@ -17,6 +17,7 @@ YouTube playback can enter an unresponsive Picture in Picture state after the us
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version | Not recorded |
+| Official release context | On the March 17 documentation date, iOS 26.3.1 was the latest standard release compatible with iPhone 14 Pro Max; released March 4, 2026. Automatic Updates were reportedly enabled, but actual installation was not verified. |
 | Application version/build | Not recorded |
 | Interacting application | Observed more often with Amazon Flex navigation; less often with map applications |
 | Network | Not recorded |
@@ -78,6 +79,7 @@ Functional / State Management / Picture in Picture / Interoperability
 ## Notes and follow-up
 
 - No viewed-video title, account information, route, address, delivery stop, or customer information is included.
+- Release timing is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100) and is contextual evidence only; the exact occurrence date and installed build remain unknown.
 - The report describes a YouTube playback state observed while another application was active. It does not claim that Amazon Flex, Apple Maps, Google Maps, iOS, or YouTube is the underlying cause.
 - Hiding the PiP panel at the side and its later automatic pause were described as normal context, not as the defect or a known 30-second trigger. The failure occurs intermittently at an unknown point in the repeated delivery workflow and is discovered when the PiP panel is restored.
 - The source discussion proposed camera, navigation, overlay, resource-management, and PiP-lifecycle explanations. None was verified, so no root cause is assigned.

@@ -17,6 +17,7 @@ Immediately after turn-by-turn navigation is started in Apple Maps, an iPhone un
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version/build | Not recorded |
+| Official release context | On March 20–21, iOS 26.3.1 was the latest standard release compatible with iPhone 14 Pro Max; released March 4, 2026. A Background Security Improvement became available March 17. The exact build/response installation was not verified. |
 | Application | Apple Maps; version not recorded |
 | Navigation state | Turn-by-turn navigation started with `Go` |
 | Low Power Mode | Off |
@@ -80,6 +81,7 @@ Functional / Navigation / Power Management / State Management
 ## Notes and limitations
 
 - The exact iOS version/build was not retained and must not be reconstructed from memory. Both the affected and comparison devices were confirmed to be on the same version.
+- Apple's [official security-release history](https://support.apple.com/en-ca/100100) makes iOS 26.3.1 the likely standard-release context for the documented dates, but does not override the missing device telemetry. Automatic Updates were reportedly enabled; rollout and installation timing remain unknown.
 - System Auto-Lock was disabled (`Settings → Display & Brightness → Auto-Lock → Never`), so the observed lock was not the configured inactivity timeout.
 - The report records that the device entered the lock-screen state; it does not assume which timer, application, framework, or OS component initiated it.
 - The behavior appeared on the same day as an iOS update on the affected device, but this is only a temporal correlation. The update is not presented as a proven root cause.

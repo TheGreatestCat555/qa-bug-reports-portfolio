@@ -17,6 +17,7 @@ The flashlight enabled on the package-scanning screen no longer preserves its st
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version/build | Not recorded |
+| Official release context | On March 21, iOS 26.3.1 was the latest standard release compatible with iPhone 14 Pro Max; released March 4, 2026. A Background Security Improvement became available March 17, but its installation was not verified. |
 | Application version/build | Not recorded |
 | Workflow | Multi-stop delivery block in dark conditions |
 | Flashlight control | Package-scanning screen |
@@ -78,6 +79,7 @@ Functional / State Management / Workflow / UX Regression
 ## Notes and limitations
 
 - The exact application and iOS versions were not recorded.
+- Release timing is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). Automatic Updates were reportedly enabled, but the installed standard build and optional background response remain unconfirmed.
 - The report describes a behavioral regression relative to long-term field use; product requirements for flashlight persistence are not available.
 - It is unknown whether the reset was an intentional product change, a temporary experiment, or an unintended regression.
 - This report concerns only the flashlight control on the package-scanning screen. A separate flashlight control used later in the delivery-photo workflow may have independent state and is outside this report.

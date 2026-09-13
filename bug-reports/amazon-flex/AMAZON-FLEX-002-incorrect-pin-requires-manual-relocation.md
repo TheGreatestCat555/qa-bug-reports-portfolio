@@ -17,6 +17,7 @@ During an apartment-complex delivery, the initial delivery pin points to the wro
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version | Not recorded |
+| Official release context | On the March 18 documentation date, iOS 26.3.1 was the latest standard release compatible with iPhone 14 Pro Max; released March 4, 2026. A Background Security Improvement became available March 17, but its installation was not verified. |
 | Application version/build | Not recorded |
 | Browser | Not applicable |
 | Network | Not recorded |
@@ -84,3 +85,4 @@ Functional / Navigation / Map Data / UX
 - The meaning of the orange and green states was inferred from the workflow transition; the application wording and accessibility treatment of those states were not recorded.
 - This manifestation differs from `AMAZON-FLEX-001`: manual pin relocation was available here and allowed the workflow to finish, whereas the earlier report documents a case in which location correction was unavailable and correct completion was blocked.
 - A future verification session should capture the application and OS versions, map zoom level, safely redacted before-and-after screenshots, displayed instructions, correction controls, and whether the corrected location persists for later deliveries.
+- Release timing is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). It is not proof of the installed build or of a relationship between an update and the map behavior.

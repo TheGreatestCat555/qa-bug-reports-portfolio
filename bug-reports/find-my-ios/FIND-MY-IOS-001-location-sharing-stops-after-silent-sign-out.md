@@ -17,6 +17,7 @@ Location sharing between two iPhones stopped updating without a noticed warning.
 |---|---|
 | Devices | Two iPhone 14 Pro Max devices |
 | OS version/build | Not recorded |
+| Official release context | On the March 16 documentation date, iOS 26.3.1 was the latest standard release compatible with iPhone 14 Pro Max; released March 4, 2026. Automatic Updates were reportedly enabled, but installation on either device was not verified. |
 | Application | Find My; version not recorded |
 | Configuration | Continuous mutual location sharing between two accounts/devices |
 | Network | Not recorded |
@@ -77,6 +78,7 @@ Functional / Account Session / Location Sharing / Error Communication
 ## Notes and limitations
 
 - The exact iOS version/build was not retained.
+- Release timing is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). Because the occurrence date was not retained and two devices were involved, it does not establish either installed build.
 - The source device showed a generic requirement to sign in; the precise service, screen, account state, and message text were not recorded. The report therefore does not claim which internal credential or token was invalidated.
 - The issue was noticed after an iOS update, but the update is only a temporal correlation and is not presented as the proven cause of the sign-out.
 - No notification was noticed. This does not prove that the system generated no notification; notification settings, Focus state, and Notification Center history were not recorded.

@@ -45,6 +45,8 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 | [`templates`](templates) | Templates used across the portfolio |
 | [`documentation`](documentation) | Reporting standards and assessment rules |
 
+Historical reports use a documented [OS-version inference policy](documentation/historical-os-version-inference.md): official release timing may be added as context, but never substituted for missing device telemetry.
+
 ## Current status
 
 The repository is actively maintained. New material is added when it is supported by a real test session, reproducible behavior, or documented evidence.

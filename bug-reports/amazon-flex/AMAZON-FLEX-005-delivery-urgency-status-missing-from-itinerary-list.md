@@ -17,6 +17,7 @@ Delivery stops approaching or exceeding their displayed delivery deadline are id
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version/build | Not recorded |
+| Official release context | On the March 30 documentation date, iOS 26.4 was the latest standard release compatible with iPhone 14 Pro Max; released March 24, 2026. Automatic Updates were reportedly enabled, but actual installation was not verified. |
 | Application version/build | Not recorded |
 | Workflow | Active multi-stop delivery block |
 | Views compared | Route map and scrollable itinerary list |
@@ -79,6 +80,7 @@ UX Regression / Information Architecture / Cross-View Consistency / Time-Critica
 ## Notes and limitations
 
 - Exact application and iOS versions were not recorded.
+- Release timing is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). The documentation date is not necessarily the exact occurrence date, and proximity to the March 24 release does not establish causation.
 - The report describes a regression relative to long-term field use; internal product requirements and rollout notes are unavailable.
 - It is unknown whether the changed presentation is permanent, an experiment, or an unintended regression.
 - Some displayed stop deadlines reportedly extend beyond the scheduled block end. That is a separate scheduling or data-consistency concern and is not asserted as part of this report.

@@ -17,6 +17,7 @@ An Amazon Flex email stated that an upcoming block had been canceled, that the d
 |---|---|
 | Device | iPhone 14 Pro Max |
 | OS version/build | Not recorded |
+| Official release context | iOS 26.4 was released for iPhone 11 and later on March 24, during the documented March 24–25 window. Automatic Updates were reportedly enabled, but it is unknown whether this report occurred before or after installation; iOS 26.3.1 therefore also remains plausible. |
 | Application version/build | Not recorded |
 | Account state | One scheduled early-morning block at the relevant time |
 | Network | Not recorded |
@@ -79,9 +80,10 @@ Functional / Data Integrity / Cross-Channel Consistency / Notification Mapping
 
 ## Notes and limitations
 
+- Compatible release context is based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). The release boundary falls inside the reported date window, so neither iOS 26.3.1 nor iOS 26.4 may be recorded as confirmed.
+
 - The report does not establish whether the email belonged to another driver, another block, a station-wide cancellation batch, or an incorrectly mapped notification record.
 - The exact push-notification wording and its relationship to the email were not retained clearly enough to treat them as independent evidence.
 - Successful arrival and identity verification strongly indicate that the in-app block was active, but internal scheduling and payment records are unavailable.
 - Receipt of payment and the final attendance standing were not independently verified in the retained account.
 - A future verification should preserve privacy-safe copies of the email and schedule, message headers or notification identifiers, exact timestamps, application version, support case ID, final earnings entry, and attendance history.
-
