@@ -16,10 +16,12 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 | Cross-channel consistency testing | [Amazon Flex cancellation email references the wrong station while the block remains active](bug-reports/amazon-flex/AMAZON-FLEX-004-cancellation-email-references-wrong-station-active-block.md) |
 | Cross-view UX regression testing | [Amazon Flex delivery urgency status is missing from the itinerary list](bug-reports/amazon-flex/AMAZON-FLEX-005-delivery-urgency-status-missing-from-itinerary-list.md) |
 | Safety-workflow testing | [Amazon Flex `Report a problem` control is unresponsive on a delivery stop](bug-reports/amazon-flex/AMAZON-FLEX-006-report-a-problem-button-unresponsive-on-delivery-stop.md) |
+| Return-workflow persistence testing | [Amazon Flex `Return now` workflow disappears before packages are returned to the station](bug-reports/amazon-flex/AMAZON-FLEX-007-return-now-workflow-disappears-unexpectedly.md) |
 | Timing and notification testing | [DeliverThat escalation warnings precede the stated delivery-start window](bug-reports/deliverthat-ios/DELIVERTHAT-IOS-001-premature-start-warning-conflicts-with-pickup-window.md) |
 | Mobile navigation testing | [Apple Maps device lock immediately after navigation starts](bug-reports/apple-maps-ios/APPLE-MAPS-IOS-001-screen-locks-during-active-navigation.md) and [route termination after network loss](bug-reports/apple-maps-ios/APPLE-MAPS-IOS-002-active-route-terminates-after-network-loss.md) |
 | Location and account-state testing | [Find My location sharing stops after an uncommunicated sign-out](bug-reports/find-my-ios/FIND-MY-IOS-001-location-sharing-stops-after-silent-sign-out.md) |
 | Cross-application mobile testing | [YouTube PiP playback becomes unresponsive after switching to navigation](bug-reports/youtube-ios/YOUTUBE-IOS-001-pip-playback-unresponsive-after-app-switch.md) |
+| Intermittent media-state testing | [YouTube video changes unexpectedly during PiP playback while navigation is in use](bug-reports/youtube-ios/YOUTUBE-IOS-003-video-changes-unexpectedly-during-pip-navigation.md) |
 | Test design | [Test cases](test-cases/README.md) and [test scenarios](test-scenarios/README.md) |
 | Exploratory testing | [Charters and session reports](exploratory-testing/README.md) |
 | Checklists | [Localization testing checklist](checklists/localization-checklist.md) |
