@@ -38,6 +38,7 @@ The issue is intermittent and its exact trigger is unknown. The observed sequenc
 2. Leave YouTube so playback continues in the PiP window.
 3. Swipe the PiP window to the side of the screen so it is represented by the restore arrow.
 4. Open and interact with a navigation application.
+   - In the more detailed Amazon Flex occurrence, the application had an active map/navigation workflow and the driver completed normal stop actions, including taking a delivery photo and marking a delivery complete, before later restoring PiP.
 5. Tap the PiP restore arrow.
 6. Attempt to resume or control the YouTube video.
 
@@ -54,7 +55,7 @@ Restoring the hidden PiP window should expose working playback controls. The vid
 
 ## Reproducibility
 
-Intermittent. Observed most often during interaction with Amazon Flex navigation and less often with other map applications. Exact rate and triggering state were not recorded.
+Intermittent. The detailed field account reports the failure during active Amazon Flex navigation and stop completion. The same failure had not been noticed with Apple Maps or Google Maps at the time of that account, but those applications were not tested under a controlled comparison. Exact rate and triggering state were not recorded.
 
 ## Severity
 
@@ -78,5 +79,6 @@ Functional / State Management / Picture in Picture / Interoperability
 
 - No viewed-video title, account information, route, address, delivery stop, or customer information is included.
 - The report describes a YouTube playback state observed while another application was active. It does not claim that Amazon Flex, Apple Maps, Google Maps, iOS, or YouTube is the underlying cause.
+- Hiding the PiP panel at the side and its later automatic pause were described as normal context, not as the defect or a known 30-second trigger. The failure occurs intermittently at an unknown point in the repeated delivery workflow and is discovered when the PiP panel is restored.
+- The source discussion proposed camera, navigation, overlay, resource-management, and PiP-lifecycle explanations. None was verified, so no root cause is assigned.
 - A future verification session should record the iOS and YouTube versions, the second application's version, the exact transition sequence, playback position before and after failure, recovery attempts, and a redacted screen recording.
-
