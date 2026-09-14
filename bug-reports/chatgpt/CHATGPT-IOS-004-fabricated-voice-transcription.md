@@ -41,6 +41,8 @@ ChatGPT produced a confident transcription that was unrelated to the speech in a
 
 ChatGPT states that the recording says `Продолжение следует...`, although that phrase is not present in the recording. Similar historical failures reportedly produced nonexistent words, names, attribution-style phrases, or responses unrelated to the supplied speech.
 
+Another historical account groups fabricated personal names, credit-like lines, and subtitle-style fragments with the same transcription-integrity failure: text absent from the source speech was presented as though it had been recognized from the recording.
+
 ## Expected result
 
 ChatGPT should return a transcription that reflects the audible speech. If the audio cannot be transcribed reliably or audio processing is unavailable, it should state that limitation instead of presenting fabricated text as a verified transcription.
@@ -71,6 +73,7 @@ Functional / Content / Error Handling
 
 - The source recording was described as approximately eight seconds long and did not contain the phrase returned by ChatGPT.
 - The exact intended transcript was not preserved and must not be reconstructed from memory.
+- No evidence establishes that a fabricated name belonged to another user or that private data leaked. The supported claim is generation of text absent from the supplied audio.
 - Retest with privacy-safe recordings that have known reference transcripts.
 - Include clear speech, quiet speech, background noise, names, and multiple languages in follow-up coverage.
 - Verify whether the current interface communicates confidence or inability to process the attachment.

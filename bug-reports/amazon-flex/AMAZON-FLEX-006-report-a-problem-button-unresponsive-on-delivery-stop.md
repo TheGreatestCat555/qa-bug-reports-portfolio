@@ -55,7 +55,7 @@ Selecting `Report a problem` should open the available reporting categories or p
 
 ## Reproducibility
 
-Repeated on one documented delivery stop, including after reopening the stop and restarting the application. It has not been established whether the issue affects other stops, routes, accounts, devices, or the current application version.
+Recurrent and intermittent in real use. The control was reported unresponsive in multiple situations when the driver needed to report a delivery problem. It was not systematically tested on every stop or block, and an exact occurrence rate was not measured. In one detailed occurrence, the failure repeated on the affected stop after reopening it and restarting the application. It has not been established whether the issue affects all stop types, routes, accounts, devices, or the current application version.
 
 ## Severity
 
@@ -82,7 +82,7 @@ Functional / Input Handling / Safety Reporting / Error Handling
 - Exact application and iOS versions were not recorded.
 - Compatible candidates are based on Apple's [official security-release history](https://support.apple.com/en-ca/100100). iOS 26.4 is the likely current-major context, but iOS 18.7.7 remained technically possible; neither may be recorded as the confirmed environment.
 - The intended dog-related report is mentioned only to establish workflow impact; no details about a customer, animal, property, or incident are published.
-- The report does not claim that every stop exposes the failure. The original observation explicitly allowed that it might be specific to the affected stop.
+- The report does not claim that every stop exposes the failure. A broader historical account confirms recurrence when the function was needed but does not provide a controlled per-stop or per-block sample.
 - It is unknown whether the control failed locally, a destination screen failed to load, or a backend request was rejected; no internal cause is asserted.
 - It is unknown whether support contact, a different screen, or a later workflow step provided an alternative way to submit the same concern.
 - A future verification should record the app and OS versions, connectivity, tap feedback, behavior across multiple stops, accessibility state, recovery attempts, and privacy-safe screen recording.

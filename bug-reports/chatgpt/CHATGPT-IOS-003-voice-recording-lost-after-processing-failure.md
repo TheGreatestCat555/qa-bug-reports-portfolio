@@ -40,6 +40,8 @@ After a long voice recording is completed in the ChatGPT iOS conversation compos
 
 ChatGPT reports that it could not understand or process the input. The recording, transcription, and message draft are not available in the conversation, leaving an empty gap between the surrounding messages. No recovery or retry option for the original recording is provided.
 
+A separate historical account describes the visible error as equivalent to `didn't quite get that` after recordings ranging from approximately one minute to several minutes. In those occurrences, the entire recording was lost rather than retained for retry.
+
 ## Expected result
 
 If speech processing fails, ChatGPT should preserve the recording or draft and offer a retry, review, or recovery option. A processing failure should not irreversibly discard a long user recording.
@@ -70,6 +72,7 @@ Functional / Error Handling / Data Loss
 
 - The specific foreground or background application state was not recorded and is not treated as a required reproduction condition.
 - A separate historical account describes the interface switching to a voice/call-style screen during or immediately after an attempt to send a long recording, followed by loss of the recording. It is unknown whether the mode switch occurred automatically, resulted from an unintended touch, or shared the same trigger as the processing-failure scenario.
+- Historical duration descriptions ranged from approximately one minute to several minutes; no timed sample or exact threshold was recorded.
 - Do not assign the device's current iOS version to this historical observation.
 - Retest on the current ChatGPT build with recordings of several durations.
 - Verify behavior after transcription errors, network interruption, backgrounding, returning to the conversation, and switching between composer voice input and realtime voice mode.
