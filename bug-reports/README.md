@@ -29,6 +29,7 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | YOUTUBE-IOS-003 | YouTube | iOS (iPhone 14 Pro Max) | Functional / Media Playback / PiP / Interoperability | Medium | Draft | [Video changes unexpectedly during PiP playback while navigation is in use](youtube-ios/YOUTUBE-IOS-003-video-changes-unexpectedly-during-pip-navigation.md) |
 | YOUTUBE-IOS-004 | YouTube | iOS (iPhone 14 Pro Max) | UX / Picture in Picture / Interoperability / Resource State | Low candidate | Draft | [PiP controls are unavailable while another application is using the camera](youtube-ios/YOUTUBE-IOS-004-pip-controls-unavailable-during-camera-capture.md) |
 | APPLE-FILES-IOS-001 | Apple Files | iOS (iPhone 14 Pro Max) | Functional / Gesture Handling / Inline Editing / Application Freeze | Medium | Draft | [Files freezes after an edge gesture during inline rename](apple-files-ios/APPLE-FILES-IOS-001-edge-gesture-freezes-inline-rename.md) |
+| UBER-EATS-IOS-001 | Uber Eats / Apple Maps integration | iOS (iPhone; exact model not recorded) | Functional / Cross-Application Integration / Navigation Handoff / Data Consistency / Map Addressing | High candidate | Draft | [Apple Maps opens a neighboring destination after navigation is launched from Uber Eats](uber-eats-ios/UBER-EATS-IOS-001-apple-maps-opens-neighboring-destination.md) |
 
 ## Status definitions
 
