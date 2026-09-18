@@ -27,6 +27,7 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 | Cross-application mobile testing | [YouTube PiP playback becomes unresponsive after switching to navigation](bug-reports/youtube-ios/YOUTUBE-IOS-001-pip-playback-unresponsive-after-app-switch.md) |
 | Intermittent media-state testing | [YouTube video changes unexpectedly during PiP playback while navigation is in use](bug-reports/youtube-ios/YOUTUBE-IOS-003-video-changes-unexpectedly-during-pip-navigation.md) |
 | Cross-application resource-state testing | [YouTube PiP controls are unavailable while another application is using the camera](bug-reports/youtube-ios/YOUTUBE-IOS-004-pip-controls-unavailable-during-camera-capture.md) |
+| Web media-session testing | [VK Video leaves a second uncontrollable audio stream playing after the visible player is paused](bug-reports/vk-video-ios/VK-VIDEO-IOS-001-uncontrollable-duplicate-audio-after-pause.md) |
 | Mobile gesture and editing testing | [Apple Files freezes after an edge gesture during inline rename](bug-reports/apple-files-ios/APPLE-FILES-IOS-001-edge-gesture-freezes-inline-rename.md) |
 | Test design | [Test cases](test-cases/README.md) and [test scenarios](test-scenarios/README.md) |
 | Exploratory testing | [Charters and session reports](exploratory-testing/README.md) |
