@@ -5,4 +5,3 @@ These reports document field-observed media playback behavior on VK Video pages 
 | ID | Device | Category | Severity | Status | Report |
 |---|---|---|---|---|---|
 | VK-VIDEO-IOS-001 | iPhone 14 Pro Max | Functional / Media Playback / Audio State / Web Integration | Medium candidate | Draft | [A second uncontrollable audio stream continues after the visible player is paused](VK-VIDEO-IOS-001-uncontrollable-duplicate-audio-after-pause.md) |
-

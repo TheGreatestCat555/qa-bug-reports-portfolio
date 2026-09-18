@@ -89,4 +89,3 @@ No verified workaround was recorded in the source observation.
 - The exact browser is unknown. It should not be described as Safari unless verified in a future occurrence.
 - The exact iOS version was not supplied in the firsthand account. An OS version proposed in the original assistant response is not treated as device telemetry.
 - Future verification should capture a privacy-safe screen recording, the exact iOS build, browser/container and version, active tabs or views, Control Center media state, output route, page URL without personal parameters, and whether closing the page stops the remaining stream.
-
