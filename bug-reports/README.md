@@ -35,6 +35,7 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | VK-VIDEO-IOS-001 | VK Video web playback | iOS (iPhone 14 Pro Max) | Functional / Media Playback / Audio State / Web Integration | Medium candidate | Draft | [A second uncontrollable audio stream continues after the visible player is paused](vk-video-ios/VK-VIDEO-IOS-001-uncontrollable-duplicate-audio-after-pause.md) |
 | INSTACART-IOS-001 | Instacart Shopper / Apple Maps integration | iOS (iPhone 14 Pro Max) | Functional / Cross-Application Integration / Navigation Handoff / Destination Data / Workflow | High candidate | Draft | [Apple Maps opens multiple unrelated addresses instead of the customer destination](instacart-ios/INSTACART-IOS-001-apple-maps-opens-multiple-unrelated-addresses.md) |
 | VEHO-IOS-001 | Veho Driver | iOS (iPhone 14 Pro Max) | Functional / Account State / Access Control / Deep Linking / Notifications / Navigation | High candidate | Draft | [An active driver account moves to the waitlist while offer navigation remains intermittently accessible](veho-ios/VEHO-IOS-001-active-account-moves-to-waitlist-while-offer-navigation-remains-accessible.md) |
+| GMAIL-IOS-001 | Gmail | iOS (iPhone 14 Pro Max) | Functional / Text Editing / Cursor Placement / Input Handling | Medium candidate | Draft | [The cursor usually cannot be placed after a line-initial `I` or `i`](gmail-ios/GMAIL-IOS-001-cursor-cannot-usually-be-placed-after-line-initial-i.md) |
 
 ## Status definitions
 
