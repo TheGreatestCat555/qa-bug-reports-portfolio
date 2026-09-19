@@ -8,7 +8,7 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 
 | Area | Example |
 |---|---|
-| Bug reporting | [Localization issue in an iOS title](bug-reports/mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |
+| Bug reporting | [ChatGPT inserts an unrelated Chinese character into an automatically generated Russian title](bug-reports/mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |
 | Bug reporting — ChatGPT | [Missing final response after completed tool execution on iOS](bug-reports/chatgpt/CHATGPT-IOS-001-empty-response-after-tool-execution.md) |
 | Field workflow testing | [Amazon Flex apartment-location state desynchronization](bug-reports/amazon-flex/AMAZON-FLEX-001-apartment-location-state-desync.md) |
 | Field workflow testing | [Amazon Flex incorrect delivery pin requiring manual relocation](bug-reports/amazon-flex/AMAZON-FLEX-002-incorrect-pin-requires-manual-relocation.md) |
