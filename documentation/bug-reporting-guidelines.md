@@ -5,6 +5,9 @@
 - Record observed facts and clearly separate them from assumptions.
 - Use one Markdown file per bug and a sequential product-specific ID.
 - Write public reports in clear professional English.
+- Prefer direct, case-specific language over generic filler, exaggerated conclusions, or repetitive template phrasing. Reports should read like careful human QA work, not automated prose.
+- Use only the sections that help explain the defect; do not inflate a small observation into several artificial issues.
+- Vary sentence structure naturally while keeping terminology consistent, and remove meta-commentary about drafting, generation, or assistant involvement.
 - Use `Not recorded` or `Not available` instead of inventing missing data.
 - Keep steps atomic, ordered, and reproducible.
 - Separate Actual Result from Expected Result.
