@@ -9,6 +9,8 @@ This section contains reports based on observed ChatGPT behavior. Reports marked
 | CHATGPT-IOS-003 | iOS | Voice input | Medium | Draft | [Voice recording is lost after speech processing fails](CHATGPT-IOS-003-voice-recording-lost-after-processing-failure.md) |
 | CHATGPT-IOS-004 | iOS | Audio transcription | Medium | Draft | [Voice transcription returns unrelated text](CHATGPT-IOS-004-fabricated-voice-transcription.md) |
 | CHATGPT-IOS-005 | iOS | Image attachment / photo picker / keyboard state | Medium candidate | Draft | [On-screen keyboard remains visible over the photo picker and obstructs image selection](CHATGPT-IOS-005-keyboard-obstructs-photo-picker.md) |
+| CHATGPT-IOS-006 | iOS | Read Aloud / Russian text to speech / numeric normalization | Medium candidate | Draft | [Russian numeric values written as digits are frequently unintelligible in Read Aloud](CHATGPT-IOS-006-russian-digits-unintelligible-in-read-aloud.md) |
+| CHATGPT-IOS-007 | iOS | Read Aloud / audio playback / seek control | High candidate | Draft | [15-second backward seek corrupts Read Aloud playback while forward seek works normally](CHATGPT-IOS-007-backward-seek-corrupts-read-aloud-playback.md) |
 | CHATGPT-005 | Not confirmed | Technical guidance / Android APIs | Medium | Draft | [Technical guidance recommends Google Fit API for a new Android application after new developer access was closed](CHATGPT-005-deprecated-google-fit-api-recommendation.md) |
 | CHATGPT-006 | Not confirmed | Conversation context / summarization | Low–Medium | Draft | [Conversation summary invents a separate user project that was never described](CHATGPT-006-invented-project-in-conversation-summary.md) |
 
