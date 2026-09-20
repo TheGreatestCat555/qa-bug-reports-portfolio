@@ -8,6 +8,7 @@ This section contains reports based on observed ChatGPT behavior. Reports marked
 | CHATGPT-IOS-002 | iOS (to be confirmed) | Assistant message actions / Read Aloud | Low | Draft | [Read Aloud action is missing for an assistant response](CHATGPT-IOS-002-read-aloud-action-missing.md) |
 | CHATGPT-IOS-003 | iOS | Voice input | Medium | Draft | [Voice recording is lost after speech processing fails](CHATGPT-IOS-003-voice-recording-lost-after-processing-failure.md) |
 | CHATGPT-IOS-004 | iOS | Audio transcription | Medium | Draft | [Voice transcription returns unrelated text](CHATGPT-IOS-004-fabricated-voice-transcription.md) |
+| CHATGPT-IOS-005 | iOS | Image attachment / photo picker / keyboard state | Medium candidate | Draft | [On-screen keyboard remains visible over the photo picker and obstructs image selection](CHATGPT-IOS-005-keyboard-obstructs-photo-picker.md) |
 | CHATGPT-005 | Not confirmed | Technical guidance / Android APIs | Medium | Draft | [Technical guidance recommends Google Fit API for a new Android application after new developer access was closed](CHATGPT-005-deprecated-google-fit-api-recommendation.md) |
 | CHATGPT-006 | Not confirmed | Conversation context / summarization | Low–Medium | Draft | [Conversation summary invents a separate user project that was never described](CHATGPT-006-invented-project-in-conversation-summary.md) |
 

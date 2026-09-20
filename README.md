@@ -10,6 +10,7 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 |---|---|
 | Bug reporting | [ChatGPT inserts an unrelated Chinese character into an automatically generated Russian title](bug-reports/mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |
 | Bug reporting — ChatGPT | [Missing final response after completed tool execution on iOS](bug-reports/chatgpt/CHATGPT-IOS-001-empty-response-after-tool-execution.md) |
+| Attachment-workflow and keyboard-state testing | [ChatGPT iOS keyboard obstructs the photo picker during multi-image selection](bug-reports/chatgpt/CHATGPT-IOS-005-keyboard-obstructs-photo-picker.md) |
 | Field workflow testing | [Amazon Flex apartment-location state desynchronization](bug-reports/amazon-flex/AMAZON-FLEX-001-apartment-location-state-desync.md) |
 | Field workflow testing | [Amazon Flex incorrect delivery pin requiring manual relocation](bug-reports/amazon-flex/AMAZON-FLEX-002-incorrect-pin-requires-manual-relocation.md) |
 | Field workflow testing | [Amazon Flex package-scanner flashlight state regression](bug-reports/amazon-flex/AMAZON-FLEX-003-scanner-flashlight-state-resets-between-stops.md) |
