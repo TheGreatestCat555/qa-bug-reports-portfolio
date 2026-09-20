@@ -39,6 +39,7 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | GMAIL-IOS-001 | Gmail | iOS (iPhone 14 Pro Max) | Functional / Text Editing / Cursor Placement / Input Handling | Medium candidate | Draft | [The cursor usually cannot be placed after a line-initial `I` or `i`](gmail-ios/GMAIL-IOS-001-cursor-cannot-usually-be-placed-after-line-initial-i.md) |
 | SPARK-IOS-001 | Spark Driver | iOS (iPhone 14 Pro Max) | Functional / Shopping Workflow / Product Data Presentation / Error Handling | High candidate | Draft | [Unidentifiable items with missing product data appear during an active shopping order](spark-driver-ios/SPARK-IOS-001-unidentifiable-items-missing-product-data.md) |
 | DOORDASH-IOS-001 | DoorDash Dasher | Mobile (exact OS not recorded) | Functional / Data Integrity / Scheduled Orders / Time Calculation / Order History | High candidate | Draft | [Scheduled catering pickup is reported as 1431 minutes early despite occurring nine minutes after the displayed target](doordash-ios/DOORDASH-IOS-001-scheduled-catering-pickup-reported-1431-minutes-early.md) |
+| UBER-DRIVER-IOS-001 | Uber Driver | iOS (iPhone 14 Pro Max) | Functional / State Synchronization / Dynamic Island / Driver Availability / Lifecycle | Medium candidate | Draft | [Dynamic Island continues to show the driver online after the driver goes offline](uber-driver-ios/UBER-DRIVER-IOS-001-dynamic-island-remains-online-after-going-offline.md) |
 
 ## Status definitions
 
