@@ -43,6 +43,16 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | DOORDASH-IOS-001 | DoorDash Dasher | Mobile (exact OS not recorded) | Functional / Data Integrity / Scheduled Orders / Time Calculation / Order History | High candidate | Draft | [Scheduled catering pickup is reported as 1431 minutes early despite occurring nine minutes after the displayed target](doordash-ios/DOORDASH-IOS-001-scheduled-catering-pickup-reported-1431-minutes-early.md) |
 | UBER-DRIVER-IOS-001 | Uber Driver | iOS (iPhone 14 Pro Max) | Functional / State Synchronization / Dynamic Island / Driver Availability / Lifecycle | Medium candidate | Draft | [Dynamic Island continues to show the driver online after the driver goes offline](uber-driver-ios/UBER-DRIVER-IOS-001-dynamic-island-remains-online-after-going-offline.md) |
 
+## October 2026 field observations
+
+| ID | Product area | Platform | Category | Severity | Status | Report |
+|---|---|---|---|---|---|---|
+| IOS-SYSTEM-001 | iOS | iPhone 14 Pro Max | Focus / Notifications / State Management | Medium candidate | Draft | [Notifications remain suppressed after Focus is disabled](ios-system/IOS-SYSTEM-001-notifications-remain-suppressed-after-focus-is-disabled.md) |
+| VEHO-IOS-002 | Veho Driver | iOS (iPhone 14 Pro Max) | Delivery Workflow / Navigation / Recovery | High candidate | Draft | [Delivery map has no usable workflow controls until the app is restarted](veho-ios/VEHO-IOS-002-delivery-map-has-no-usable-controls-until-app-restart.md) |
+| CHATGPT-IOS-008 | ChatGPT | iOS (iPhone 14 Pro Max) | Audio Playback / Accessibility / Error Handling | Medium candidate | Draft | [Read Aloud distorts words, hangs, and stops during ordinary playback](chatgpt/CHATGPT-IOS-008-read-aloud-distorts-words-and-stops-without-seeking.md) |
+| IOS-SYSTEM-002 | iOS media audio | iPhone 14 Pro Max | Audio Playback / Interoperability / Volume Consistency | Medium candidate | Draft | [Media volume drops and abruptly recovers without a volume-setting change](ios-system/IOS-SYSTEM-002-media-volume-drops-and-recovers-without-slider-changes.md) |
+| SPARK-IOS-002 | Spark Driver | iOS (iPhone 14 Pro Max) | Delivery Workflow / Photo Persistence / Lifecycle | High candidate | Draft | [Proof-of-delivery photo is lost after switching to the iPhone Camera](spark-driver-ios/SPARK-IOS-002-proof-of-delivery-photo-lost-after-camera-app-switch.md) |
+
 ## Status definitions
 
 - **Draft:** captures a genuine observation but still has missing verification details.

@@ -14,6 +14,12 @@ This section contains reports based on observed ChatGPT behavior. Reports marked
 | CHATGPT-005 | Not confirmed | Technical guidance / Android APIs | Medium | Draft | [Technical guidance recommends Google Fit API for a new Android application after new developer access was closed](CHATGPT-005-deprecated-google-fit-api-recommendation.md) |
 | CHATGPT-006 | Not confirmed | Conversation context / summarization | Low–Medium | Draft | [Conversation summary invents a separate user project that was never described](CHATGPT-006-invented-project-in-conversation-summary.md) |
 
+## Additional Read Aloud observation
+
+| ID | Platform | Feature | Severity | Status | Report |
+|---|---|---|---|---|---|
+| CHATGPT-IOS-008 | iOS | Read Aloud / ordinary playback / distortion and interruption | Medium candidate | Draft | [Read Aloud distorts words, hangs, and stops during ordinary playback](CHATGPT-IOS-008-read-aloud-distorts-words-and-stops-without-seeking.md) |
+
 ## Verification needed for drafts
 
 - Confirm the platform, device, operating system, and application build.

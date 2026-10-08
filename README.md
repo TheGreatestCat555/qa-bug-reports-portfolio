@@ -8,6 +8,11 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 
 | Area | Example |
 |---|---|
+| Focus transition and notification-state testing | [iOS notifications remain suppressed after Focus is disabled](bug-reports/ios-system/IOS-SYSTEM-001-notifications-remain-suppressed-after-focus-is-disabled.md) |
+| Delivery-workflow recovery testing | [Veho delivery map has no usable controls until the application is restarted](bug-reports/veho-ios/VEHO-IOS-002-delivery-map-has-no-usable-controls-until-app-restart.md) |
+| Intermittent speech-playback testing | [ChatGPT Read Aloud distorts words, hangs, and stops during ordinary playback](bug-reports/chatgpt/CHATGPT-IOS-008-read-aloud-distorts-words-and-stops-without-seeking.md) |
+| Media-audio interoperability testing | [Media volume drops and abruptly recovers without a volume-setting change](bug-reports/ios-system/IOS-SYSTEM-002-media-volume-drops-and-recovers-without-slider-changes.md) |
+| Photo persistence and lifecycle testing | [Spark Driver loses a delivery photo after switching to the iPhone Camera](bug-reports/spark-driver-ios/SPARK-IOS-002-proof-of-delivery-photo-lost-after-camera-app-switch.md) |
 | Bug reporting | [ChatGPT inserts an unrelated Chinese character into an automatically generated Russian title](bug-reports/mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |
 | Bug reporting — ChatGPT | [Missing final response after completed tool execution on iOS](bug-reports/chatgpt/CHATGPT-IOS-001-empty-response-after-tool-execution.md) |
 | Attachment-workflow and keyboard-state testing | [ChatGPT iOS keyboard obstructs the photo picker during multi-image selection](bug-reports/chatgpt/CHATGPT-IOS-005-keyboard-obstructs-photo-picker.md) |
