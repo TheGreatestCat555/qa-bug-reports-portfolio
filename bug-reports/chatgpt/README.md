@@ -14,6 +14,12 @@ This section contains reports based on observed ChatGPT behavior. Reports marked
 | CHATGPT-005 | Not confirmed | Technical guidance / Android APIs | Medium | Draft | [Technical guidance recommends Google Fit API for a new Android application after new developer access was closed](CHATGPT-005-deprecated-google-fit-api-recommendation.md) |
 | CHATGPT-006 | Not confirmed | Conversation context / summarization | Low–Medium | Draft | [Conversation summary invents a separate user project that was never described](CHATGPT-006-invented-project-in-conversation-summary.md) |
 
+## Codex reports
+
+| ID | Platform | Feature | Severity | Status | Report |
+|---|---|---|---|---|---|
+| CHATGPT-CODEX-001 | Windows workspace | Conversation context / tool selection | Medium candidate | Draft | [Assistant stops at a public login redirect before retrieving available project context](CHATGPT-CODEX-001-premature-access-refusal-before-context-retrieval.md) |
+
 ## Additional Read Aloud observation
 
 | ID | Platform | Feature | Severity | Status | Report |

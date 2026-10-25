@@ -4,6 +4,7 @@ Field reports covering the Spark Driver shopping and delivery workflows on iOS.
 
 | ID | Area | Severity | Status | Report |
 |---|---|---|---|---|
+| SPARK-IOS-003 | Spark Now / availability / offer delivery / push notifications | Medium candidate | Draft | [Offers and push notifications continue after Spark Now is turned off](SPARK-IOS-003-offers-continue-after-spark-now-is-turned-off.md) |
 | SPARK-IOS-002 | Pickup & Drop-off / proof-of-delivery photo / state restoration | High candidate | Draft | [Proof-of-delivery photo is lost after switching to the iPhone Camera](SPARK-IOS-002-proof-of-delivery-photo-lost-after-camera-app-switch.md) |
 | SPARK-IOS-001 | Shop & Deliver / product-data presentation | High candidate | Draft | [Unidentifiable items with missing product data appear during an active shopping order](SPARK-IOS-001-unidentifiable-items-missing-product-data.md) |
 

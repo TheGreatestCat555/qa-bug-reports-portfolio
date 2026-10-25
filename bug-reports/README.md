@@ -15,6 +15,7 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | DELIVERTHAT-IOS-001 | DeliverThat | iOS and SMS | Functional / Cross-Channel Consistency / Timing Logic / Notification Escalation / UX | High | Draft | [Escalating start warnings appear before the stated delivery-start window](deliverthat-ios/DELIVERTHAT-IOS-001-premature-start-warning-conflicts-with-pickup-window.md) |
 | CHATGPT-005 | ChatGPT | Not confirmed | Content Accuracy / Technical Guidance / Deprecated API | Medium | Draft | [Technical guidance recommends Google Fit API for a new Android application after new developer access was closed](chatgpt/CHATGPT-005-deprecated-google-fit-api-recommendation.md) |
 | CHATGPT-006 | ChatGPT | Not confirmed | Functional / Conversation Context / Hallucination | Low–Medium | Draft | [Conversation summary invents a separate user project that was never described](chatgpt/CHATGPT-006-invented-project-in-conversation-summary.md) |
+| CHATGPT-CODEX-001 | Codex | Windows workspace | Conversation Context / Tool Selection / Error Handling | Medium candidate | Draft | [Assistant stops at a public login redirect before retrieving available project context](chatgpt/CHATGPT-CODEX-001-premature-access-refusal-before-context-retrieval.md) |
 | AMAZON-FLEX-001 | Amazon Flex | iOS (iPhone 14 Pro Max) | Functional / Navigation / State Management | High | Draft | [Delivery cannot be completed at the correct apartment when map location states disagree](amazon-flex/AMAZON-FLEX-001-apartment-location-state-desync.md) |
 | AMAZON-FLEX-002 | Amazon Flex | iOS (iPhone 14 Pro Max) | Functional / Navigation / Map Data / UX | Medium | Draft | [Incorrect apartment delivery pin requires manual relocation before completion](amazon-flex/AMAZON-FLEX-002-incorrect-pin-requires-manual-relocation.md) |
 | AMAZON-FLEX-003 | Amazon Flex | iOS (iPhone 14 Pro Max) | Functional / State Management / Workflow / UX Regression | Medium | Draft | [Package-scanner flashlight state resets between delivery stops](amazon-flex/AMAZON-FLEX-003-scanner-flashlight-state-resets-between-stops.md) |
@@ -52,6 +53,14 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | CHATGPT-IOS-008 | ChatGPT | iOS (iPhone 14 Pro Max) | Audio Playback / Accessibility / Error Handling | Medium candidate | Draft | [Read Aloud distorts words, hangs, and stops during ordinary playback](chatgpt/CHATGPT-IOS-008-read-aloud-distorts-words-and-stops-without-seeking.md) |
 | IOS-SYSTEM-002 | iOS media audio | iPhone 14 Pro Max | Audio Playback / Interoperability / Volume Consistency | Medium candidate | Draft | [Media volume drops and abruptly recovers without a volume-setting change](ios-system/IOS-SYSTEM-002-media-volume-drops-and-recovers-without-slider-changes.md) |
 | SPARK-IOS-002 | Spark Driver | iOS (iPhone 14 Pro Max) | Delivery Workflow / Photo Persistence / Lifecycle | High candidate | Draft | [Proof-of-delivery photo is lost after switching to the iPhone Camera](spark-driver-ios/SPARK-IOS-002-proof-of-delivery-photo-lost-after-camera-app-switch.md) |
+
+## Status definitions
+
+## Additional availability-state observation
+
+| ID | Product area | Platform | Category | Severity | Status | Report |
+|---|---|---|---|---|---|---|
+| SPARK-IOS-003 | Spark Driver | iOS (iPhone 14 Pro Max) | Availability State / Offer Delivery / Push Notifications / State Synchronization | Medium candidate | Draft | [Offers and push notifications continue after Spark Now is turned off](spark-driver-ios/SPARK-IOS-003-offers-continue-after-spark-now-is-turned-off.md) |
 
 ## Status definitions
 
