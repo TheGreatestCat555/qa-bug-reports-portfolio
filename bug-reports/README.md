@@ -4,6 +4,7 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 
 | ID | Product area | Platform | Category | Severity | Status | Report |
 |---|---|---|---|---|---|---|
+| DUOLINGO-ANDROID-001 | Duolingo | Android (Samsung Galaxy S25 Ultra) | UI / Post-Lesson Navigation / Missing Control / Advertisement Transition | Medium candidate | Draft | [Post-ad friend-streak screen has no visible Continue or Skip control](duolingo-android/DUOLINGO-ANDROID-001-post-ad-friend-streak-screen-has-no-continue-control.md) |
 | MOBILE-IOS-001 | ChatGPT | iOS | Localization / Generated Content / Unicode / Mixed Script | Low candidate | Draft | [An unrelated Chinese character appears in an automatically generated Russian chat title](mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |
 | CHATGPT-IOS-001 | ChatGPT | iOS | Functional / Conversation rendering | High | Ready | [Completed tool-enabled turn renders as an empty response](chatgpt/CHATGPT-IOS-001-empty-response-after-tool-execution.md) |
 | CHATGPT-IOS-002 | ChatGPT | iOS (to be confirmed) | Accessibility / UI | Low | Draft | [Read Aloud action is missing for an assistant response](chatgpt/CHATGPT-IOS-002-read-aloud-action-missing.md) |
@@ -53,8 +54,6 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 | CHATGPT-IOS-008 | ChatGPT | iOS (iPhone 14 Pro Max) | Audio Playback / Accessibility / Error Handling | Medium candidate | Draft | [Read Aloud distorts words, hangs, and stops during ordinary playback](chatgpt/CHATGPT-IOS-008-read-aloud-distorts-words-and-stops-without-seeking.md) |
 | IOS-SYSTEM-002 | iOS media audio | iPhone 14 Pro Max | Audio Playback / Interoperability / Volume Consistency | Medium candidate | Draft | [Media volume drops and abruptly recovers without a volume-setting change](ios-system/IOS-SYSTEM-002-media-volume-drops-and-recovers-without-slider-changes.md) |
 | SPARK-IOS-002 | Spark Driver | iOS (iPhone 14 Pro Max) | Delivery Workflow / Photo Persistence / Lifecycle | High candidate | Draft | [Proof-of-delivery photo is lost after switching to the iPhone Camera](spark-driver-ios/SPARK-IOS-002-proof-of-delivery-photo-lost-after-camera-app-switch.md) |
-
-## Status definitions
 
 ## Additional availability-state observation
 

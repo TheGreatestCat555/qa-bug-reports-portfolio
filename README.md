@@ -8,6 +8,7 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 
 | Area | Example |
 |---|---|
+| Android post-ad navigation testing | [Duolingo friend-streak screen has no visible Continue or Skip control after an advertisement](bug-reports/duolingo-android/DUOLINGO-ANDROID-001-post-ad-friend-streak-screen-has-no-continue-control.md) |
 | Availability-state and notification testing | [Spark Driver continues sending offers after Spark Now is turned off](bug-reports/spark-driver-ios/SPARK-IOS-003-offers-continue-after-spark-now-is-turned-off.md) |
 | Focus transition and notification-state testing | [iOS notifications remain suppressed after Focus is disabled](bug-reports/ios-system/IOS-SYSTEM-001-notifications-remain-suppressed-after-focus-is-disabled.md) |
 | Delivery-workflow recovery testing | [Veho delivery map has no usable controls until the application is restarted](bug-reports/veho-ios/VEHO-IOS-002-delivery-map-has-no-usable-controls-until-app-restart.md) |
