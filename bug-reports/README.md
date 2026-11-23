@@ -4,6 +4,7 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 
 | ID | Product area | Platform | Category | Severity | Status | Report |
 |---|---|---|---|---|---|---|
+| ROADIE-IOS-001 | Roadie | iOS (two iPhones) | Vehicle Capacity / Data Quality / Fit Classification Candidate | Medium candidate | Draft | [The same Gig receives disputed Tight Fit and Easy Fit ratings for two Prius generations](roadie-ios/ROADIE-IOS-001-same-gig-has-disputed-fit-ratings-for-two-prius-generations.md) |
 | DUOLINGO-ANDROID-001 | Duolingo | Android (Samsung Galaxy S25 Ultra) | UI / Post-Lesson Navigation / Missing Control / Advertisement Transition | Medium candidate | Draft | [Post-ad friend-streak screen has no visible Continue or Skip control](duolingo-android/DUOLINGO-ANDROID-001-post-ad-friend-streak-screen-has-no-continue-control.md) |
 | MOBILE-IOS-001 | ChatGPT | iOS | Localization / Generated Content / Unicode / Mixed Script | Low candidate | Draft | [An unrelated Chinese character appears in an automatically generated Russian chat title](mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |
 | CHATGPT-IOS-001 | ChatGPT | iOS | Functional / Conversation rendering | High | Ready | [Completed tool-enabled turn renders as an empty response](chatgpt/CHATGPT-IOS-001-empty-response-after-tool-execution.md) |
