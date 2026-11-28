@@ -4,6 +4,8 @@ These reports document field-observed delivery workflow problems. Customer addre
 
 | ID | Platform | Category | Severity | Status | Report |
 |---|---|---|---|---|---|
+| AMAZON-FLEX-011 | iOS (iPhone 14 Pro Max) | QR Scanning / Delivery Workflow / Error Communication / Recovery | High candidate | Draft | [Delivery QR scanner gives no result until the app is restarted](AMAZON-FLEX-011-delivery-qr-scanner-unresponsive-until-app-restart.md) |
+| AMAZON-FLEX-012 | iOS (iPhone 14 Pro Max) | Package Identification / Scanner Overlay / State Management | Medium candidate | Draft | [Station scanner displays 1 for every package until the app is restarted](AMAZON-FLEX-012-station-scanner-shows-one-for-every-package.md) |
 | AMAZON-FLEX-001 | iOS (iPhone 14 Pro Max) | Functional / Navigation / State Management | High | Draft | [Delivery cannot be completed at the correct apartment when map location states disagree](AMAZON-FLEX-001-apartment-location-state-desync.md) |
 | AMAZON-FLEX-002 | iOS (iPhone 14 Pro Max) | Functional / Navigation / Map Data / UX | Medium | Draft | [Incorrect apartment delivery pin requires manual relocation before completion](AMAZON-FLEX-002-incorrect-pin-requires-manual-relocation.md) |
 | AMAZON-FLEX-003 | iOS (iPhone 14 Pro Max) | Functional / State Management / Workflow / UX Regression | Medium | Draft | [Package-scanner flashlight state resets between delivery stops](AMAZON-FLEX-003-scanner-flashlight-state-resets-between-stops.md) |

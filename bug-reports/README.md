@@ -4,6 +4,8 @@ Reports in this section are based on observed behavior. Drafts remain clearly ma
 
 | ID | Product area | Platform | Category | Severity | Status | Report |
 |---|---|---|---|---|---|---|
+| AMAZON-FLEX-011 | Amazon Flex | iOS (iPhone 14 Pro Max) | QR Scanning / Delivery Workflow / Error Communication / Recovery | High candidate | Draft | [Delivery QR scanner gives no result until the app is restarted](amazon-flex/AMAZON-FLEX-011-delivery-qr-scanner-unresponsive-until-app-restart.md) |
+| AMAZON-FLEX-012 | Amazon Flex | iOS (iPhone 14 Pro Max) | Package Identification / Scanner Overlay / State Management | Medium candidate | Draft | [Station scanner displays 1 for every package until the app is restarted](amazon-flex/AMAZON-FLEX-012-station-scanner-shows-one-for-every-package.md) |
 | ROADIE-IOS-001 | Roadie | iOS (two iPhones) | Vehicle Capacity / Data Quality / Fit Classification Candidate | Medium candidate | Draft | [The same Gig receives disputed Tight Fit and Easy Fit ratings for two Prius generations](roadie-ios/ROADIE-IOS-001-same-gig-has-disputed-fit-ratings-for-two-prius-generations.md) |
 | DUOLINGO-ANDROID-001 | Duolingo | Android (Samsung Galaxy S25 Ultra) | UI / Post-Lesson Navigation / Missing Control / Advertisement Transition | Medium candidate | Draft | [Post-ad friend-streak screen has no visible Continue or Skip control](duolingo-android/DUOLINGO-ANDROID-001-post-ad-friend-streak-screen-has-no-continue-control.md) |
 | MOBILE-IOS-001 | ChatGPT | iOS | Localization / Generated Content / Unicode / Mixed Script | Low candidate | Draft | [An unrelated Chinese character appears in an automatically generated Russian chat title](mobile-ios/MOBILE-IOS-001-cyrillic-title-character.md) |

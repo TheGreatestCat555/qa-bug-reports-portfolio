@@ -8,6 +8,8 @@ I focus on clear reproduction steps, verifiable observations, practical risk ass
 
 | Area | Example |
 |---|---|
+| Delivery scanner recovery testing | [Amazon Flex QR scanner gives no result at delivery stops until restart](bug-reports/amazon-flex/AMAZON-FLEX-011-delivery-qr-scanner-unresponsive-until-app-restart.md) |
+| Scanner overlay and identification testing | [Amazon Flex station scanner displays 1 for every package until restart](bug-reports/amazon-flex/AMAZON-FLEX-012-station-scanner-shows-one-for-every-package.md) |
 | Comparative vehicle-fit assessment | [Roadie shows disputed Tight Fit and Easy Fit ratings for the same Gig across two Prius generations](bug-reports/roadie-ios/ROADIE-IOS-001-same-gig-has-disputed-fit-ratings-for-two-prius-generations.md) |
 | Android post-ad navigation testing | [Duolingo friend-streak screen has no visible Continue or Skip control after an advertisement](bug-reports/duolingo-android/DUOLINGO-ANDROID-001-post-ad-friend-streak-screen-has-no-continue-control.md) |
 | Availability-state and notification testing | [Spark Driver continues sending offers after Spark Now is turned off](bug-reports/spark-driver-ios/SPARK-IOS-003-offers-continue-after-spark-now-is-turned-off.md) |
